@@ -1,3 +1,5 @@
+using System;
+
 namespace Instituto.Clases
 {
     //clase Carrera
@@ -7,15 +9,17 @@ namespace Instituto.Clases
         private int id;
         private string codigo;
         private string nombre;
-        private Instituto instituto;
+        private Institucion institucion;
 
         //metodo constructor
-        public Carrera(int id, string codigo, string nombre, Instituto instituto)
+        public Carrera(int id, string codigo, string nombre, Institucion institucion)
         {
             this.id = id;
             this.codigo = codigo;
             this.nombre = nombre;
-            this.instituto = instituto;
+            this.institucion = institucion;
+
+            Console.WriteLine("<" + nombre + "> creado...");
         }
     }
 }

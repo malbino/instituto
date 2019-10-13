@@ -1,3 +1,5 @@
+using System;
+
 namespace Instituto.Clases
 {
     //clase Materia
@@ -16,6 +18,8 @@ namespace Instituto.Clases
             this.codigo = codigo;
             this.nombre = nombre;
             this.carrera = carrera;
+
+            Console.WriteLine("<" + nombre + "> creado...");
         }
     }
 }

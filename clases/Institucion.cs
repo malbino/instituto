@@ -1,7 +1,9 @@
+using System;
+
 namespace Instituto.Clases
 {
-    //clase instituto
-    public class Instituto
+    //clase Institucion
+    public class Institucion
     {
         //atributos
         private int id;
@@ -12,10 +14,12 @@ namespace Instituto.Clases
         private string email;
 
         //metodo constructor
-        public Instituto(int id, string nombre)
+        public Institucion(int id, string nombre)
         {
             this.id = id;
             this.nombre = nombre;
+
+            Console.WriteLine("<" + nombre + "> creado...");
         }
     }
 }

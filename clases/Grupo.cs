@@ -1,5 +1,3 @@
-using Instituo.Clases;
-
 namespace Instituto.Clases
 {
     //clase Grupo

@@ -1,6 +1,6 @@
 using System;
 
-namespace Instituo.Clases
+namespace Instituto.Clases
 {
     //clase Docente
     public class Docente
