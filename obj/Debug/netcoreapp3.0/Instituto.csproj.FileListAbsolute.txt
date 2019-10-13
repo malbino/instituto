@@ -1,0 +1,11 @@
+/home/malbino/VSCProjects/instituto/bin/Debug/netcoreapp3.0/Instituto
+/home/malbino/VSCProjects/instituto/bin/Debug/netcoreapp3.0/Instituto.deps.json
+/home/malbino/VSCProjects/instituto/bin/Debug/netcoreapp3.0/Instituto.runtimeconfig.json
+/home/malbino/VSCProjects/instituto/bin/Debug/netcoreapp3.0/Instituto.runtimeconfig.dev.json
+/home/malbino/VSCProjects/instituto/bin/Debug/netcoreapp3.0/Instituto.dll
+/home/malbino/VSCProjects/instituto/bin/Debug/netcoreapp3.0/Instituto.pdb
+/home/malbino/VSCProjects/instituto/obj/Debug/netcoreapp3.0/Instituto.csprojAssemblyReference.cache
+/home/malbino/VSCProjects/instituto/obj/Debug/netcoreapp3.0/Instituto.AssemblyInfoInputs.cache
+/home/malbino/VSCProjects/instituto/obj/Debug/netcoreapp3.0/Instituto.AssemblyInfo.cs
+/home/malbino/VSCProjects/instituto/obj/Debug/netcoreapp3.0/Instituto.dll
+/home/malbino/VSCProjects/instituto/obj/Debug/netcoreapp3.0/Instituto.pdb
