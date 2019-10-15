@@ -6,20 +6,34 @@ namespace Instituto.Clases
     public class Institucion
     {
         //atributos
-        private int id;
-        private string nombre;
-        private string direccion;
-        private int telefono1;
-        private int telefono2;
-        private string email;
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Direccion { get; set; }
+        public int Telefono1 { get; set; }
+        public int Telefono2 { get; set; }
+        public string Email { get; set; }
+        
 
         //metodo constructor
-        public Institucion(int id, string nombre)
+        public Institucion(int id, string nombre, string direccion="", int telefono1=0, int telefono2=0, string email="")
         {
-            this.id = id;
-            this.nombre = nombre;
+            this.Id = id;
+            this.Nombre = nombre;
+            this.Direccion = direccion;
+            this.Telefono1 = telefono1;
+            this.Telefono2 = telefono2;
+            this.Email = email;
 
-            Console.WriteLine("<" + nombre + "> creado...");
+            Console.WriteLine("<" + Nombre + "> creado...");
         }
+
+        //metodo destructor
+        ~Institucion()
+        {
+            //hacer algo
+
+            Console.WriteLine("<" + Nombre + "> destruido...");
+        }
+
     }
 }

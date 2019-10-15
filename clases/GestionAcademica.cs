@@ -8,14 +8,24 @@ namespace Instituto.Clases
         //atributos
         private int id;
         private string codigo;
-        DateTime inicio;
-        DateTime fin;
+        public DateTime Inicio { protected get; set; }
+        public DateTime Fin { protected get; set; }
 
         //metodo constructor
         public GestionAcademica(int id, string codigo)
         {
             this.id = id;
             this.codigo = codigo;
+
+            Console.WriteLine("<" + codigo + "> creado...");
+        }
+
+        //metodo destructor
+        ~GestionAcademica()
+        {
+            //hacer algo
+
+            Console.WriteLine("<" + codigo + "> destruido...");
         }
     }
 }

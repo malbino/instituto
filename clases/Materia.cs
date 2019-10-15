@@ -21,5 +21,13 @@ namespace Instituto.Clases
 
             Console.WriteLine("<" + nombre + "> creado...");
         }
+
+        //metodo destructor
+        ~Materia()
+        {
+            //hacer algo
+
+            Console.WriteLine("<" + nombre + "> destruido...");
+        }
     }
 }
