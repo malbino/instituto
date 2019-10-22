@@ -6,20 +6,18 @@ namespace Instituto.Clases
     public class Materia
     {
         //atributos
-        private int id;
-        private string codigo;
-        private string nombre;
-        private Carrera carrera;
+        public int Id { get; set; }
+        public string Codigo { get; set; }
+        public string Nombre { get; set; }
+        public Carrera Carrera { get; set; }
 
         //metodo constructor
         public Materia(int id, string codigo, string nombre, Carrera carrera)
         {
-            this.id = id;
-            this.codigo = codigo;
-            this.nombre = nombre;
-            this.carrera = carrera;
-
-            Console.WriteLine("<" + nombre + "> creado...");
+            this.Id = id;
+            this.Codigo = codigo;
+            this.Nombre = nombre;
+            this.Carrera = carrera;
         }
 
         //metodo destructor
@@ -27,7 +25,13 @@ namespace Instituto.Clases
         {
             //hacer algo
 
-            Console.WriteLine("<" + nombre + "> destruido...");
+            Console.WriteLine("<" + Nombre + "> destruido...");
+        }
+
+        //sobreescribios el metodo ToString de Object
+        public override string ToString()
+        {
+            return "Id: " + Id + ", Nombre: " + Nombre + ", Carrera: " + Carrera.Nombre;
         }
     }
 }

@@ -19,8 +19,6 @@ namespace Instituto.Clases
             this.codigo = codigo;
             this.gestionAcademica = gestionAcademica;
             this.materia = materia;
-
-            Console.WriteLine("<" + codigo + "> creado...");
         }
 
         //metodo destructor

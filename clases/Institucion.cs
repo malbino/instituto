@@ -12,10 +12,10 @@ namespace Instituto.Clases
         public int Telefono1 { get; set; }
         public int Telefono2 { get; set; }
         public string Email { get; set; }
-        
+
 
         //metodo constructor
-        public Institucion(int id, string nombre, string direccion="", int telefono1=0, int telefono2=0, string email="")
+        public Institucion(int id, string nombre, string direccion = "", int telefono1 = 0, int telefono2 = 0, string email = "")
         {
             this.Id = id;
             this.Nombre = nombre;
@@ -23,8 +23,6 @@ namespace Instituto.Clases
             this.Telefono1 = telefono1;
             this.Telefono2 = telefono2;
             this.Email = email;
-
-            Console.WriteLine("<" + Nombre + "> creado...");
         }
 
         //metodo destructor
@@ -33,6 +31,12 @@ namespace Instituto.Clases
             //hacer algo
 
             Console.WriteLine("<" + Nombre + "> destruido...");
+        }
+
+        //sobreescribios el metodo ToString de Object
+        public override string  ToString()
+        {
+            return "Id: " + Id + ", Nombre: " + Nombre;
         }
 
     }

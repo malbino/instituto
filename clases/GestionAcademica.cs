@@ -16,8 +16,6 @@ namespace Instituto.Clases
         {
             this.id = id;
             this.codigo = codigo;
-
-            Console.WriteLine("<" + codigo + "> creado...");
         }
 
         //metodo destructor
