@@ -2,29 +2,12 @@ using System;
 
 namespace Instituto.Clases
 {
-    //clase Estudiante
-    public class Estudiante
+    //clase Estudiante que hereda de la clase Persona
+    public class Estudiante : Persona
     {
-        //atributos
-        private int id;
-        private string nombre;
-        private string primerApellido;
-        private string segundoApellido;
-        private string ci;
-        private DateTime fechaNacimiento;
-        private string direccion;
-        private int telefono;
-        private int celular;
-        private string email;
-        
-        //metodo constructor
-        public Estudiante(int id, string nombre, string primerApellido, string segundoApellido)
+        //metodos constructor heredado de la clase padre
+        public Estudiante(int id, string nombre, string primerApellido, string segundoApellido) : base(id, nombre, primerApellido, segundoApellido)
         {
-            this.id = id;
-            this.nombre = nombre;
-            this.primerApellido = primerApellido;
-            this.segundoApellido = segundoApellido;
         }
-        
     }
 }

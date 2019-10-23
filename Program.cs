@@ -9,6 +9,25 @@ namespace Instituto
     {
         static void Main(string[] args)
         {
+            //cargarDatos();
+
+            Impresora.imprimirTitulo("Estudiantes");
+            Estudiante estudiante = new Estudiante(1, "Juan", "Peres", "Vargas");
+            estudiante.FechaNacimiento = new DateTime(1999, 3, 20);
+            Impresora.imprimirLinea(estudiante.ToString());
+            Impresora.imprimirLinea(estudiante.NombreCompleto());
+            Impresora.imprimirLinea(estudiante.Edad().ToString());
+
+            Impresora.imprimirTitulo("Docentes");
+            Docente docente = new Docente(1, "Jua Gabriel", "Mancilla", "Colque");
+            docente.FechaNacimiento = new DateTime(1985, 2, 3);
+            Impresora.imprimirLinea(docente.ToString());
+            Impresora.imprimirLinea(docente.NombreCompleto());
+            Impresora.imprimirLinea(docente.Edad().ToString());
+        }
+
+        public static void cargarDatos()
+        {
             Impresora.imprimirTitulo("Institucion");
             Institucion institucion = Generador.generarInstitucion();
             Impresora.imprimirLinea(institucion.ToString());
