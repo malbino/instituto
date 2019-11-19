@@ -1,4 +1,5 @@
 using System;
+using Instituto.Interfaces;
 
 namespace Instituto.Clases
 {
@@ -13,6 +14,9 @@ namespace Instituto.Clases
         public int Telefono2 { get; set; }
         public string Email { get; set; }
 
+        public double Latitud { get; set; }
+        public double Longitud { get; set; }
+
 
         //metodo constructor
         public Institucion(int id, string nombre, string direccion = "", int telefono1 = 0, int telefono2 = 0, string email = "")
@@ -23,6 +27,9 @@ namespace Instituto.Clases
             this.Telefono1 = telefono1;
             this.Telefono2 = telefono2;
             this.Email = email;
+
+            Latitud = -12.209;
+            Longitud = -77.0186;
         }
 
         //metodo destructor
@@ -37,6 +44,11 @@ namespace Instituto.Clases
         public override string  ToString()
         {
             return "Id: " + Id + ", Nombre: " + Nombre;
+        }
+
+        public string geolocalizacion()
+        {
+            return "Geolocalizacion: " + Latitud + ", " + Longitud;
         }
 
     }

@@ -10,6 +10,10 @@ namespace Instituto
         static void Main(string[] args)
         {
             //cargarDatos();
+            Impresora.imprimirTitulo("Institucion");
+            Institucion institucion = new Institucion(1, "Instituto Tecnologico INFOCAL", "Av. General Galindo");
+            Impresora.imprimirLinea(institucion.ToString());
+            Impresora.imprimirLinea(institucion.geolocalizacion());
 
             Impresora.imprimirTitulo("Estudiantes");
             Estudiante estudiante = new Estudiante(1, "Juan", "Peres", "Vargas");
@@ -17,6 +21,7 @@ namespace Instituto
             Impresora.imprimirLinea(estudiante.ToString());
             Impresora.imprimirLinea(estudiante.NombreCompleto());
             Impresora.imprimirLinea(estudiante.Edad().ToString());
+            Impresora.imprimirLinea(estudiante.geolocalizacion());
 
             Impresora.imprimirTitulo("Docentes");
             Docente docente = new Docente(1, "Jua Gabriel", "Mancilla", "Colque");
@@ -24,6 +29,7 @@ namespace Instituto
             Impresora.imprimirLinea(docente.ToString());
             Impresora.imprimirLinea(docente.NombreCompleto());
             Impresora.imprimirLinea(docente.Edad().ToString());
+            Impresora.imprimirLinea(docente.geolocalizacion());
         }
 
         public static void cargarDatos()

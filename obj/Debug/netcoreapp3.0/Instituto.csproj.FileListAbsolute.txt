@@ -9,3 +9,14 @@
 /home/malbino/VSCProjects/instituto/obj/Debug/netcoreapp3.0/Instituto.AssemblyInfo.cs
 /home/malbino/VSCProjects/instituto/obj/Debug/netcoreapp3.0/Instituto.dll
 /home/malbino/VSCProjects/instituto/obj/Debug/netcoreapp3.0/Instituto.pdb
+/home/tincho/Docencia/Programacion II/instituto/obj/Debug/netcoreapp3.0/Instituto.csprojAssemblyReference.cache
+/home/tincho/Docencia/Programacion II/instituto/obj/Debug/netcoreapp3.0/Instituto.AssemblyInfoInputs.cache
+/home/tincho/Docencia/Programacion II/instituto/obj/Debug/netcoreapp3.0/Instituto.AssemblyInfo.cs
+/home/tincho/Docencia/Programacion II/instituto/obj/Debug/netcoreapp3.0/Instituto.dll
+/home/tincho/Docencia/Programacion II/instituto/obj/Debug/netcoreapp3.0/Instituto.pdb
+/home/tincho/Docencia/Programacion II/instituto/bin/Debug/netcoreapp3.0/Instituto
+/home/tincho/Docencia/Programacion II/instituto/bin/Debug/netcoreapp3.0/Instituto.deps.json
+/home/tincho/Docencia/Programacion II/instituto/bin/Debug/netcoreapp3.0/Instituto.runtimeconfig.json
+/home/tincho/Docencia/Programacion II/instituto/bin/Debug/netcoreapp3.0/Instituto.runtimeconfig.dev.json
+/home/tincho/Docencia/Programacion II/instituto/bin/Debug/netcoreapp3.0/Instituto.dll
+/home/tincho/Docencia/Programacion II/instituto/bin/Debug/netcoreapp3.0/Instituto.pdb

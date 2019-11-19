@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/malbino/.dotnet/store/|arch|/|tfm|",
-      "/home/malbino/.nuget/packages"
+      "/home/tincho/.dotnet/store/|arch|/|tfm|",
+      "/home/tincho/.nuget/packages"
     ]
   }
 }

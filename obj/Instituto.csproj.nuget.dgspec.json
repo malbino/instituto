@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/malbino/VSCProjects/instituto/Instituto.csproj": {}
+    "/home/tincho/Docencia/Programacion II/instituto/Instituto.csproj": {}
   },
   "projects": {
-    "/home/malbino/VSCProjects/instituto/Instituto.csproj": {
+    "/home/tincho/Docencia/Programacion II/instituto/Instituto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/malbino/VSCProjects/instituto/Instituto.csproj",
+        "projectUniqueName": "/home/tincho/Docencia/Programacion II/instituto/Instituto.csproj",
         "projectName": "Instituto",
-        "projectPath": "/home/malbino/VSCProjects/instituto/Instituto.csproj",
-        "packagesPath": "/home/malbino/.nuget/packages/",
-        "outputPath": "/home/malbino/VSCProjects/instituto/obj/",
+        "projectPath": "/home/tincho/Docencia/Programacion II/instituto/Instituto.csproj",
+        "packagesPath": "/home/tincho/.nuget/packages/",
+        "outputPath": "/home/tincho/Docencia/Programacion II/instituto/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/malbino/.nuget/NuGet/NuGet.Config"
+          "/home/tincho/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
